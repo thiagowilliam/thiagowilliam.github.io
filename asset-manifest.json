@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.js": "/new-portfolio/static/js/main.b23ec15d.chunk.js",
+    "main.js.map": "/new-portfolio/static/js/main.b23ec15d.chunk.js.map",
+    "runtime-main.js": "/new-portfolio/static/js/runtime-main.32b3caa7.js",
+    "runtime-main.js.map": "/new-portfolio/static/js/runtime-main.32b3caa7.js.map",
+    "static/js/2.82f780a2.chunk.js": "/new-portfolio/static/js/2.82f780a2.chunk.js",
+    "static/js/2.82f780a2.chunk.js.map": "/new-portfolio/static/js/2.82f780a2.chunk.js.map",
+    "index.html": "/new-portfolio/index.html",
+    "precache-manifest.b5ad2a924471e33a545e4df3e1dd7368.js": "/new-portfolio/precache-manifest.b5ad2a924471e33a545e4df3e1dd7368.js",
+    "service-worker.js": "/new-portfolio/service-worker.js",
+    "static/js/2.82f780a2.chunk.js.LICENSE.txt": "/new-portfolio/static/js/2.82f780a2.chunk.js.LICENSE.txt",
+    "static/media/Thiago-William-CV-English.pdf": "/new-portfolio/static/media/Thiago-William-CV-English.44ca80d0.pdf",
+    "static/media/bg-contato.svg": "/new-portfolio/static/media/bg-contato.a584ff3b.svg",
+    "static/media/bg-home.png": "/new-portfolio/static/media/bg-home.80f74f6b.png",
+    "static/media/icon-css3.svg": "/new-portfolio/static/media/icon-css3.14306565.svg",
+    "static/media/icon-gatsby.svg": "/new-portfolio/static/media/icon-gatsby.21c684b0.svg",
+    "static/media/icon-git.svg": "/new-portfolio/static/media/icon-git.55b7a21a.svg",
+    "static/media/icon-html5.svg": "/new-portfolio/static/media/icon-html5.9a4c256a.svg",
+    "static/media/icon-javascript.svg": "/new-portfolio/static/media/icon-javascript.36da9fa8.svg",
+    "static/media/icon-reactjs.svg": "/new-portfolio/static/media/icon-reactjs.0e7a4fe0.svg",
+    "static/media/icon-svg.svg": "/new-portfolio/static/media/icon-svg.2a146488.svg",
+    "static/media/interactive.svg": "/new-portfolio/static/media/interactive.b01e5f6f.svg",
+    "static/media/logo-tw.svg": "/new-portfolio/static/media/logo-tw.23c006a5.svg",
+    "static/media/mobile.svg": "/new-portfolio/static/media/mobile.d3a09518.svg",
+    "static/media/responsive.svg": "/new-portfolio/static/media/responsive.4a886774.svg",
+    "static/media/team-player.svg": "/new-portfolio/static/media/team-player.3156d6a1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.32b3caa7.js",
+    "static/js/2.82f780a2.chunk.js",
+    "static/js/main.b23ec15d.chunk.js"
+  ]
+}
