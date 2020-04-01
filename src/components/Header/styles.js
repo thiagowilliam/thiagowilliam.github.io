@@ -12,7 +12,7 @@ export const LineMenu = styled.div`
   position: absolute;
   bottom: 0;
   left: 0;
-  background: var(--second-color);
+  background: #57d131;
   width: 40px;
   height: 2px;
 `;
@@ -37,7 +37,7 @@ export const ItemList = styled.li`
   display: block;
   a {
     text-decoration: none;
-    color: var(--text-home-color);
+    color: #fcfcfc;
     font-size: 20px;
     padding-bottom: 4px;
     margin: 0 20px;
@@ -45,11 +45,11 @@ export const ItemList = styled.li`
     transition: all 0.2s;
     cursor: pointer;
     &:hover {
-      border-bottom: 2px solid var(--second-color);
+      border-bottom: 2px solid #57d131;
     }
   }
   .active {
-    border-bottom: 2px solid var(--second-color);
+    border-bottom: 2px solid #57d131;
   }
 `;
 

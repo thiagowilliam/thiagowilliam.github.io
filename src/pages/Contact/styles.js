@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import ImgPoligono from '../../assets/images/bg-contato.svg';
 
 export const Container = styled.div`
-  background: var(--bg-contact);
+  background: #252934;
   width: 100%;
   padding: 100px 0px 0 0px;
   position: relative;
@@ -30,7 +30,7 @@ export const Centraliza = styled.div`
 
 export const TituloContact = styled.h1`
   color: #fff;
-  font-family: var(--second-font);
+  font-family: 'Montserrat', sans-serif;
   width: 100%;
   position: relative;
   text-align: center;
@@ -47,7 +47,7 @@ export const TituloContact = styled.h1`
     display: block;
     width: 100px;
     height: 3px;
-    background: var(--second-color);
+    background: #57d131;
     position: absolute;
     bottom: 0;
     transform: translateX(-50%);
@@ -56,16 +56,16 @@ export const TituloContact = styled.h1`
 `;
 
 export const BoxDetails = styled.div`
-  color: var(--text-home-color);
+  color: #fcfcfc;
 
   h2 {
     font-size: 22px;
-    font-family: var(--second-font);
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 30px;
   }
 `;
 export const InfoDetails = styled.article`
-  font-family: var(--main-font);
+  font-family: 'Ubuntu', sans-serif;
   font-size: 18px;
   margin-bottom: 24px;
   h3 {
@@ -97,7 +97,7 @@ export const Footer = styled.footer`
   background: #1b1e26;
   width: 100%;
   font-size: 12px;
-  color: var(--text-home-color);
+  color: #fcfcfc;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -16,7 +16,7 @@ export const Container = styled.section`
 
   h1 {
     font-size: 70px;
-    color: var(--text-home-color);
+    color: #fcfcfc;
     font-weight: 400;
     margin-bottom: 32px;
     text-align: center;
@@ -30,7 +30,7 @@ export const Container = styled.section`
 
   p {
     font-size: 22px;
-    color: var(--text-home-color);
+    color: #fcfcfc;
     max-width: 80%;
     text-align: center;
     line-height: 26px;
@@ -45,9 +45,9 @@ export const Container = styled.section`
   }
 
   button {
-    color: var(--text-home-color);
+    color: #fcfcfc;
     border: 0;
-    background: var(--main-button-color);
+    background: #57d131;
     text-transform: uppercase;
     font-weight: 400;
     font-size: 18px;

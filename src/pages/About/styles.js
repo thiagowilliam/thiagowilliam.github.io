@@ -10,8 +10,8 @@ export const Container = styled.div`
 
 export const TituloPage = styled.h1`
   text-transform: uppercase;
-  font-family: var(--second-font);
-  color: var(--text-color);
+  font-family: 'Montserrat', sans-serif;
+  color: #303030;
   font-weight: 700;
   font-size: 22px;
   width: 100%;
@@ -20,7 +20,7 @@ export const TituloPage = styled.h1`
 
   span {
     padding: 5px 8px;
-    border-bottom: 2px solid var(--second-color);
+    border-bottom: 2px solid #57d131;
     display: inline-block;
   }
 `;
@@ -34,7 +34,7 @@ export const Capacity = styled.article`
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: var(--text-color);
+  color: #303030;
   width: 22%;
   @media (max-width: 768px) {
     width: 45%;
@@ -43,13 +43,13 @@ export const Capacity = styled.article`
   h2 {
     margin: 24px 16px;
     font-size: 18px;
-    font-family: var(--second-font);
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
   }
 
   p {
     font-size: 16px;
-    font-family: var(--main-font);
+    font-family: 'Ubuntu', sans-serif;
     text-align: center;
   }
   img {
@@ -77,7 +77,7 @@ export const WrapperSkills = styled.section`
 export const TitleSkills = styled.h1`
   position: relative;
   font-size: 18px;
-  font-family: var(--second-font);
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   padding-top: 8px;
   margin-bottom: 30px;
@@ -89,7 +89,7 @@ export const TitleSkills = styled.h1`
     display: block;
     width: 30px;
     height: 2px;
-    background: var(--second-color);
+    background: #57d131;
     position: absolute;
     top: 0;
   }
@@ -105,7 +105,7 @@ export const ItemSkill = styled.article`
   width: 28%;
   position: relative;
   background: #fff;
-  border: 2px solid var(--second-color);
+  border: 2px solid #57d131;
   border-radius: 5px;
   padding: 8px;
   margin-bottom: 30px;
@@ -121,7 +121,7 @@ export const ItemSkill = styled.article`
   }
   p {
     text-align: center;
-    font-family: var(--main-font);
+    font-family: 'Ubuntu', sans-serif;
     font-size: 16px;
   }
 `;
@@ -146,7 +146,7 @@ export const BoxButtons = styled.div`
   }
 
   .linkHire {
-    background: var(--second-color);
+    background: #57d131;
     margin-right: 30px;
     @media (max-width: 768px) {
       margin-right: 0px;

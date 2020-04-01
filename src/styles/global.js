@@ -36,16 +36,6 @@ const GlobalStyles = createGlobalStyle`
     -webkit-font-smoothing: antialiased !important;
     font-family: 'Ubuntu', sans-serif;
     background: #EBEBEB;
-    --text-color: #303030;
-    --text-home-color: #fcfcfc;
-    --second-color: #57D131;
-    --main-button-color: #57D131;
-    --second-button-color: #707070;
-
-    --main-font: 'Ubuntu', sans-serif;
-    --second-font: 'Montserrat', sans-serif;
-    --bg-menu: #252934;
-    --bg-contact: #252934;
   }
   ol, ul {
     list-style: none;
