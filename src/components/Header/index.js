@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaGithubAlt, FaLinkedinIn } from 'react-icons/fa';
 
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 import * as S from './styles';
 
