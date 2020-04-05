@@ -1,7 +1,8 @@
 import React from 'react';
-import { FaGithubAlt, FaLinkedinIn } from 'react-icons/fa';
 
 import * as S from './styles';
+
+import BoxSocial from '../../components/Social';
 
 export default function Contact() {
   return (
@@ -25,20 +26,7 @@ export default function Contact() {
             <p>+353 0830700040</p>
           </S.InfoDetails>
 
-          <S.BoxSocial>
-            <S.IconSocial
-              href="https://github.com/thiagowilliam"
-              target="blank"
-            >
-              <FaGithubAlt size={22} color="#FFFFFF" />
-            </S.IconSocial>
-            <S.IconSocial
-              href="https://www.linkedin.com/in/thiago-william/"
-              target="blank"
-            >
-              <FaLinkedinIn size={22} color="#FFFFFF" />
-            </S.IconSocial>
-          </S.BoxSocial>
+          <BoxSocial />
         </S.BoxDetails>
       </S.Centraliza>
 
