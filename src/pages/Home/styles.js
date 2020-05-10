@@ -6,7 +6,8 @@ import Background from '../../assets/images/bg-home.png';
 export const Container = styled.section`
   height: 100vh;
   min-height: 640px;
-  background: url(${Background}) cover;
+  background: url(${Background});
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
