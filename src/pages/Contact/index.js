@@ -10,11 +10,11 @@ export default function Contact() {
       <S.Poligono />
       <S.Centraliza>
         <S.TituloContact>
-          Wanna <span>Start Work</span> With Me?
+          Gostaria de <span>contar comigo</span> em sua equipe?
         </S.TituloContact>
 
         <S.BoxDetails>
-          <h2>My Contact Details</h2>
+          <h2>Detalhes para contato</h2>
 
           <S.InfoDetails>
             <h3>Email</h3>
@@ -23,7 +23,7 @@ export default function Contact() {
 
           <S.InfoDetails>
             <h3>Telefone</h3>
-            <p>+353 0830700040</p>
+            <p>+55 61 993834848</p>
           </S.InfoDetails>
 
           <BoxSocial />

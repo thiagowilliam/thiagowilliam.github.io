@@ -45,7 +45,7 @@ export const Container = styled.section`
     }
   }
 
-  button {
+  a {
     color: #fcfcfc;
     border: 0;
     background: #57d131;
@@ -55,6 +55,7 @@ export const Container = styled.section`
     border-radius: 5px;
     padding: 13px 20px;
     transition: all 0.2s;
+    cursor: pointer;
     &:hover {
       background: ${darken(0.1, '#57d131')};
     }

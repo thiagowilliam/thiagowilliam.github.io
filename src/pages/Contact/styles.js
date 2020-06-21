@@ -40,18 +40,8 @@ export const TituloContact = styled.h1`
   padding-bottom: 8px;
   span {
     font-weight: 700;
-  }
-
-  &:after {
-    content: '';
-    display: block;
-    width: 100px;
-    height: 3px;
-    background: #57d131;
-    position: absolute;
-    bottom: 0;
-    transform: translateX(-50%);
-    left: 50%;
+    border-bottom: 3px solid #57d131;
+    padding-bottom: 5px;
   }
 `;
 

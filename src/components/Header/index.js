@@ -22,6 +22,8 @@ export default function Header() {
                   smooth
                   offset={-70}
                   duration={500}
+                  alt={itemLink.alt}
+                  title={itemLink.alt}
                 >
                   {itemLink.label}
                 </Link>

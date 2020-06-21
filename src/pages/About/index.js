@@ -17,42 +17,46 @@ import iconCSS3 from '../../assets/images/icon-css3.svg';
 import iconJavascript from '../../assets/images/icon-javascript.svg';
 import iconReactJs from '../../assets/images/icon-reactjs.svg';
 import iconGit from '../../assets/images/icon-git.svg';
-import IconGatsby from '../../assets/images/icon-gatsby.svg';
+import IconJest from '../../assets/images/icon-jest.svg';
 
-import MyCV from '../../assets/cv/Thiago-William-CV-English.pdf';
+import MyCV from '../../assets/cv/Thiago-William-CV-pt-br.pdf';
 
 export default function About() {
   return (
     <S.Container id="about">
       <S.TituloPage>
-        <span>About</span>
+        <span>Sobre mim</span>
       </S.TituloPage>
 
       <S.WrapperCapacity>
         <S.Capacity>
           <img src={ImgTeamPLayer} alt="Icon Team Player" title="Tem Player" />
-          <h2>Team Player</h2>
-          <p>More than friends, we are a team in search of a common goal</p>
+          <h2>Trabalho em equipe</h2>
+          <p>
+            Mais do que amigos, tento me encaixar na equipe em busca de um
+            objetivo comum
+          </p>
         </S.Capacity>
 
         <S.Capacity>
           <img src={ImgResponsive} alt="Icon Team Player" title="Tem Player" />
-          <h2>Responsive</h2>
-          <p>Build web pages that detect the visitor's screen size</p>
+          <h2>Sites Resposivos</h2>
+          <p>Crio páginas Web que detectam o tamanho da tela do visitante</p>
         </S.Capacity>
 
         <S.Capacity>
           <img src={ImgMobile} alt="Icon Team Player" title="Tem Player" />
           <h2>Mobile</h2>
           <p>
-            Excited by the idea of creating apps to make life easier for users
+            Animado com a ideia de criar aplicativos para facilitar a vida dos
+            usuários
           </p>
         </S.Capacity>
 
         <S.Capacity>
           <img src={ImgInteractive} alt="Icon Team Player" title="Tem Player" />
-          <h2>Interactive</h2>
-          <p>Clean code and always aware of the application's interactivity</p>
+          <h2>Boas práticas</h2>
+          <p>Código limpo e sempre ciente da interatividade do aplicativo</p>
         </S.Capacity>
       </S.WrapperCapacity>
 
@@ -67,7 +71,7 @@ export default function About() {
 
         <S.WrapperSkills>
           <S.TitleSkills>
-            My <span>Skills</span>
+            Principais <span>Abilidades</span>
           </S.TitleSkills>
 
           <S.ListSkill>
@@ -107,8 +111,8 @@ export default function About() {
             </S.ItemSkill>
 
             <S.ItemSkill>
-              <img src={IconGatsby} alt="" />
-              <p>TDD</p>
+              <img src={IconJest} alt="" />
+              <p>Jest</p>
             </S.ItemSkill>
 
             <S.ItemSkill>
@@ -126,7 +130,7 @@ export default function About() {
               offset={-70}
               duration={500}
             >
-              Hire Me
+              Entre em contato
             </Link>
 
             <S.LinkCV href={MyCV} download>

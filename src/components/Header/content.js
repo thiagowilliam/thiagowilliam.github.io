@@ -2,16 +2,19 @@ const links = [
   {
     label: 'Home',
     to: 'home',
+    alt: 'Página inicial',
   },
 
   {
-    label: 'About',
+    label: 'Sobre mim',
     to: 'about',
+    alt: 'Sobre mim',
   },
 
   {
-    label: 'Contact',
+    label: 'Contato',
     to: 'contact',
+    alt: 'Contato',
   },
 ];
 
