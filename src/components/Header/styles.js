@@ -40,7 +40,7 @@ export const ItemList = styled.li`
     color: #fcfcfc;
     font-size: 20px;
     padding-bottom: 4px;
-    margin: 0 20px;
+    margin: 0 8px;
     border-bottom: 0px solid transparent;
     transition: all 0.2s;
     cursor: pointer;

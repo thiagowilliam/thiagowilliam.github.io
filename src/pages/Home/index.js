@@ -13,7 +13,7 @@ export default function Home() {
       <p>
         Sou desenvolvedor Frontend e adoro codificar e proporcionar uma ótima
         experiência para usuários. Atualmente estou desenvolvendo com
-        <strong>JavaScript</strong> ,<strong>ReactJS</strong>,
+        <strong> JavaScript</strong> ,<strong>ReactJS</strong>,
         <strong>React Native</strong> e<strong> Node.JS</strong>
       </p>
 

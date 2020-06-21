@@ -29,6 +29,16 @@ export default function Header() {
                 </Link>
               </S.ItemList>
             ))}
+            <S.ItemList>
+              <a
+                href="https://blog.thiagowilliam.com.br/"
+                target="blank"
+                title="Meu Blog"
+                alt="Meu blog"
+              >
+                Blog
+              </a>
+            </S.ItemList>
           </S.List>
         </S.boxMenu>
 

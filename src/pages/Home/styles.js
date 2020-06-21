@@ -16,7 +16,7 @@ export const Container = styled.section`
   padding: 0 20px;
 
   h1 {
-    font-size: 70px;
+    font-size: 58px;
     color: #fcfcfc;
     font-weight: 400;
     margin-bottom: 32px;
