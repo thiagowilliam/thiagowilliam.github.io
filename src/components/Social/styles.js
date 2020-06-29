@@ -4,6 +4,7 @@ export const BoxSocial = styled.div`
   position: relative;
   margin-left: auto;
   display: flex;
+  justify-content: center;
 `;
 
 export const IconSocial = styled.a`

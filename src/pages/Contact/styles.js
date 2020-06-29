@@ -6,6 +6,9 @@ export const Container = styled.div`
   width: 100%;
   padding: 100px 0px 0 0px;
   position: relative;
+  min-height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
 `;
 
 export const Poligono = styled.div`
@@ -24,8 +27,10 @@ export const Centraliza = styled.div`
   margin: 0 auto;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   padding: 0 20px;
+  flex-grow: 1;
 `;
 
 export const TituloContact = styled.h1`
@@ -58,6 +63,7 @@ export const InfoDetails = styled.article`
   font-family: 'Ubuntu', sans-serif;
   font-size: 18px;
   margin-bottom: 24px;
+  text-align: center;
   h3 {
     font-weight: 600;
     margin-bottom: 8px;

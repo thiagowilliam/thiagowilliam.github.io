@@ -23,7 +23,7 @@ export const Centraliza = styled.header`
   margin: 0 auto;
   display: flex;
   align-items: center;
-  padding: 10px 0;
+  padding: 10px 20px;
 `;
 
 export const boxMenu = styled.nav`
