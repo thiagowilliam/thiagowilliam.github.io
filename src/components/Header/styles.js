@@ -28,6 +28,10 @@ export const Centraliza = styled.header`
 
 export const boxMenu = styled.nav`
   position: relative;
+
+  @media (max-width: 490px) {
+    display: none;
+  }
 `;
 export const List = styled.ul`
   position: relative;

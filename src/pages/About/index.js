@@ -71,7 +71,7 @@ export default function About() {
 
         <S.WrapperSkills>
           <S.TitleSkills>
-            Principais <span>Abilidades</span>
+            Principais <span>Habilidades</span>
           </S.TitleSkills>
 
           <S.ListSkill>

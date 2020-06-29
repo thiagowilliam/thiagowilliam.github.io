@@ -23,7 +23,7 @@ export default function Contact() {
 
           <S.InfoDetails>
             <h3>Telefone</h3>
-            <p>+55 61 993834848</p>
+            <p>+55 61 99383-4848</p>
           </S.InfoDetails>
 
           <BoxSocial />

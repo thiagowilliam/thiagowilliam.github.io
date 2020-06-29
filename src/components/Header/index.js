@@ -5,11 +5,15 @@ import { Link } from 'react-scroll';
 import BoxSocial from '../Social';
 import LinksMenu from './content';
 
+import ResposiveMenu from '../ResponsiveMenu';
+
 import * as S from './styles';
 
 export default function Header() {
   return (
     <S.Container>
+      <ResposiveMenu />
+
       <S.Centraliza>
         <S.boxMenu>
           <S.List>
