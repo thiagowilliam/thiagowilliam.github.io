@@ -40,7 +40,7 @@ export default function About() {
 
         <S.Capacity>
           <img src={ImgResponsive} alt="Icon Team Player" title="Tem Player" />
-          <h2>Sites Resposivos</h2>
+          <h2>Sites Responsivos</h2>
           <p>Crio páginas Web que detectam o tamanho da tela do visitante</p>
         </S.Capacity>
 

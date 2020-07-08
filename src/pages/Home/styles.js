@@ -21,11 +21,40 @@ export const Container = styled.section`
     font-weight: 400;
     margin-bottom: 32px;
     text-align: center;
+
+    border-right: 3px solid rgba(255, 255, 255, 0.75);
+
+    white-space: nowrap;
+    overflow: hidden;
+
     @media (max-width: 650px) {
       font-size: 55px;
     }
     span {
       font-weight: 700;
+    }
+  }
+
+  .typing-animation {
+    animation: blinkCursor 1000ms steps(40) infinite normal,
+      typing steps(40) 4s 1s normal both;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 15.5em;
+    }
+  }
+
+  @keyframes blinkCursor {
+    from {
+      border-right: 3px solid rgba(255, 255, 255, 0.75);
+    }
+    to {
+      border-right: 3px solid transparent;
     }
   }
 

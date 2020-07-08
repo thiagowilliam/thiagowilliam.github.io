@@ -3,6 +3,7 @@ import React from 'react';
 import { Link } from 'react-scroll';
 
 import { slide as Menu } from 'react-burger-menu';
+
 import LinksMenu from '../Header/content';
 
 import * as S from './styles';
