@@ -21,6 +21,7 @@ export const Container = styled.section`
     font-weight: 400;
     margin-bottom: 32px;
     text-align: center;
+    font-weight: 700;
 
     border-right: 3px solid rgba(255, 255, 255, 0.75);
 
@@ -31,7 +32,10 @@ export const Container = styled.section`
       font-size: 55px;
     }
     span {
-      font-weight: 700;
+      font-weight: normal;
+      @media (max-width: 940px) {
+        display: none;
+      }
     }
   }
 
@@ -46,6 +50,9 @@ export const Container = styled.section`
     }
     to {
       width: 15.5em;
+      @media (max-width: 940px) {
+        width: 8em;
+      }
     }
   }
 

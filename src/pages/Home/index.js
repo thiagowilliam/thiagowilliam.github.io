@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <S.Container id="home">
       <h1 className="typing-animation">
-        Olá, me chamo
-        <span> Thiago William =)</span>
+        <span>Olá, me chamo </span>
+        Thiago William =)
       </h1>
 
       <p>
